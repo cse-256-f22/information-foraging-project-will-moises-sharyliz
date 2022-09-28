@@ -3,7 +3,7 @@ export function doSomething() {
 }
 
 export function stickySetup() {
-
+  console.log("in sticky")
   window.onscroll = function() {myFunction()};
 
   var header = document.getElementById("main-menu-container");
@@ -11,8 +11,10 @@ export function stickySetup() {
   var sticky = header.offsetTop;
 
   function myFunction() {
+    console.log("im doin sumn");
     if (window.pageYOffset > sticky) {
       header.classList.add("sticky");
+      console.log("added sticky");
     }
     else {
       header.classList.remove("sticky");
