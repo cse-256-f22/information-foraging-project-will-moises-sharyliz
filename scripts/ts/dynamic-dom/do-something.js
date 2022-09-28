@@ -4,7 +4,7 @@ export function doSomething() {
 
 export function stickySetup() {
 
-  window.onscroll == function() {myFunction()};
+  window.onscroll = function() {myFunction()};
 
   var header = document.getElementById("main-menu-container");
 

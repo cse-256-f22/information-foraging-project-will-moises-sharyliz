@@ -41,10 +41,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-}
-
-.sticky + .auto_gen_id_unq_6 {
-    padding-top: 100px;
+    margin-top: 43px;
 }
 
 #column-view {
