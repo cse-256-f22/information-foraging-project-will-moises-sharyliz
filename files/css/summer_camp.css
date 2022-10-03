@@ -2,3 +2,9 @@
 .image-container {
     background-image: url("https://nurseryschool.wustl.edu/files/2015/03/group-holi.jpg");
 }
+#camp-images {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}

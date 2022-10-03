@@ -24,3 +24,17 @@ main li {
 .classroom p {
     font-size: 1.15em;
 }
+
+.curriculum-lists {
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.development-summary {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#curriculum-images {
+    float: left;
+}
