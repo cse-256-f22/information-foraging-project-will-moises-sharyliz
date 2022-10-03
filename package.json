@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Information Foraging project for CSE 256 in the form of WUSTL's Nursery School website.",
   "main": "./scripts/js/app.js",
-  "url": "put your repository's home page url here",
+  "url": "https://cse-256-f22.github.io/information-foraging-project-will-moises-sharyliz/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sandbox": "node ./deploy/sandbox.js",
@@ -16,7 +16,8 @@
   "author": "Riley McCuen",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.596.0"
+    "aws-sdk": "^2.596.0",
+    "sandbox": "^0.8.6"
   },
   "devDependencies": {
     "@types/node": "^13.1.1",
