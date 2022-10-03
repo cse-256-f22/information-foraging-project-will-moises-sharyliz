@@ -13,7 +13,7 @@ AWS.config.loadFromPath(__dirname + '/../aws-credentials.json');
 
 const extQ = `<?xml version="1.0" encoding="UTF-8"?>
                     <ExternalQuestion xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd">
-                        <ExternalURL>${process.env.npm_package_url}</ExternalURL>
+                        <ExternalURL>https://cse-256-f22.github.io/information-foraging-project-will-moises-sharyliz/</ExternalURL>
                         <FrameHeight>0</FrameHeight>
                     </ExternalQuestion>`;
 
